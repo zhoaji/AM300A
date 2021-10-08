@@ -1,0 +1,16 @@
+######################################################################
+#
+# via file for armlink
+#
+#####################################################################
+
+# Peripheral ROM extend patchs
+.\lib\hs6621c_rom_peripheral_ext_a2.lib(pmu*.o calib.o calib_repair.o encoder.o encoder_sim.o i2c.o i2c_sim.o kpp_sim.o mouse_sensor_sim.o rtc.o spi.o timer.o wdt.o audio.o i2s.o lcd_serial.o radio.o dma_nds.o)
+
+# Peripheral ROM symbol (User can edit this file to remove some ROM symbol)
+.\lib\hs6621c_rom_peripheral_a2.symdefs
+
+# BLE Stack ROM library
+.\lib\hs6621c_rom_a2.lib
+.\lib\hs6621c_lib_a2.lib(*)
+
